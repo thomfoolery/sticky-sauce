@@ -1,0 +1,6 @@
+.affix {
+  position: fixed !important;
+}
+.affix-top {
+  top: 0;
+}

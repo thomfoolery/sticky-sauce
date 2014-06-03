@@ -1,0 +1,20 @@
+{
+  "name": "sticky-sauce",
+  "version": "0.0.1",
+  "authors": [
+    "Thomas Yuill <thomas.yuill@gmail.com>"
+  ],
+  "description": "A javascript plugin for sticky headers that detect collisions",
+  "license": "MIT",
+  "homepage": "http://thomfoolery.github.io/sticky-sauce",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "devDependencies": {
+    "bootstrap-sass-official": "~3.1.1+2"
+  }
+}

@@ -1,0 +1,56 @@
+@import 'bootstrap.scss';
+
+$headerHeight: 60px;
+
+html {
+  font-family:'Source Sans Pro'
+}
+
+.affix {
+  width: 100%;
+}
+
+header {
+  background-color: white;
+  width: 100%;
+  margin: 0;
+  border-bottom: 1px solid #ddd;
+  z-index: 9;
+
+  h1 {
+    height: $headerHeight;
+    line-height: $headerHeight;
+    padding: 0 20px;
+    margin: 0;
+  }
+}
+
+h2 {
+  position: relative;
+  height: $headerHeight;
+  line-height: $headerHeight;
+  padding: 0 20px;
+  margin: 0 0 20px;
+  background-color: #f1f1f1;
+
+  &:before {
+    content: '';
+    display: blo
+  }
+}
+
+[role=main] {
+  padding-top: $headerHeight + 20px;
+}
+
+section {
+  padding: 20px 0;
+
+  p:last-child {
+    margin-bottom: 0;
+  }
+}
+
+footer {
+  padding: 20px;
+}
