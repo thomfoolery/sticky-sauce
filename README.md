@@ -9,7 +9,7 @@ place.
 
 Works with a persistant fixed main header.
 
-[DEMO]
+[DEMO](http://thomfoolery.github.io/sticky-sauce/)
 
 USE
 ---
