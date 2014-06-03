@@ -24,7 +24,7 @@ navigation.
 For fancier styles and placement, use style the element or its children
 accordingly.
 
-``
+```html
 <html>
 <head>
   ...
@@ -50,6 +50,6 @@ accordingly.
   <script src="sticky-sauce.min.js"></script>
 </body>
 <html>
-``
+```
 
 &copy; 2014 Thomas Yuill
